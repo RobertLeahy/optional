@@ -366,7 +366,7 @@ namespace std {
 				
 					if (other.engaged) {
 					
-						swap(get(),other.get());
+						std::swap(get(),other.get());
 					
 					} else {
 					
